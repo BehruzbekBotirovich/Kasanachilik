@@ -1,0 +1,102 @@
+@import './base.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {color: black;
+  background: #F2F4F7;
+}
+
+/* Переопределите стиль для полупрозрачного фона модального окна */
+.ant-modal-mask {
+  background: #203242B0 !important;
+  /* Измените цвет и прозрачность */
+}
+
+.custom-modal .ant-modal-title {
+  font-size: 1.5rem;
+  /* Размер шрифта заголовка */
+  font-weight: bold;
+  /* Жирность шрифта заголовка */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+  /* скрыть скроллбар для WebKit (Chrome, Safari, Edge) */
+}
+
+/* Ограничивает текст до n строк */
+.text-2qator {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-3qator {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* green btn */
+.green-btn {
+  color: white;
+  padding: 16px 25px;
+  background: #47CD89;
+  box-shadow: 0px 16px 21.5px 0px #47CD8930;
+  border-radius: 6px;
+
+  @media(max-width:760px) {
+    padding: 8px 12px;
+
+  }
+}
+
+.green-btn:hover {
+  background: #23c273;
+
+}
+
+.main-container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin: 0 auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+
+
+  html {
+    font-size: 14px;
+  }
+}
