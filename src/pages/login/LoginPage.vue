@@ -2,7 +2,6 @@
     <div class="flex bg-gray-200 h-screen">
         <div class="w-1/2 flex justify-center items-center">
             <div class="bg-white rounded-xl p-6 space-y-4" style="width: 520px;">
-                <div class="flex justify-center"><img src="../assets/img/Layer.png" alt=""></div>
                 <h1 class="text-3xl font-bold text-center">Kasanachilik Maktabi</h1>
                 <p class="text-gray-600 text-center">tizimga kirish</p>
 
@@ -121,20 +120,17 @@ const kasana = ref([
     {
         title: 'Kulolchilik haqida',
         text: 'Kulolchilik – Oʼzbekiston xalq amaliy sanʼatinig eng qadimiy, gʼoyat qiziqarli turlaridan biri. Mamlakatimiz hududida kulolchiliknig koʼplab asosiy maktab va markazlari mavjud. Rishton, Buxoro, Gʼurumsaroy, Toshkent, Xorazm, Samarqand va Qashqadaryo kulolchilik maktablarini sanash mumkin. Ushbu kulolchilik maktablari bir biridan yaratilgan mahsulotlarni tayyorlanish uslubi, naqsh-gullari, rangi va pardozi bilan biri-biridan farqlanadi.',
-        img: 'https://s3-alpha-sig.figma.com/img/6f3a/1f64/8be5a651b2133153334460bb664cf2d4?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oZvqaUx2On8QJLChxUW7-zjll~uhupDF6zaRikW4ovkA1ciHr9fa5-alHRlrx6Cw854nGmlEpsGa7w3~g1eka25nhybCFvvlDiimW5xnC0Kgg39abVhvLMZdGfunl3l56zuHB0RK5HIaU~jEUMtd03RXYBwfA5NTDv0Ekq4TvLYvSHc7FpnJZUQFo6K3rgb3WWrWzNZSzbrIie8Hldf3RxQ815jlicDA5F0KSi523qixNhbbDVo1dOPR9WIC-lj-LJkSqtcJUKNHSDLaYGmlSLIF5HusQ0Fwjf6-wDQDtR9p6U4lhqim3lFWLw~vXSIUNsZx0iU2~2~11L6HEHvRbw__',
-        rating: 5,
+        img: 'https://storage.kun.uz/source/7/gtq6ryn3kUOFrPVtor_aZPxvW0X0iIMj.jpg', rating: 5,
     },
     {
-        title: 'lorem kdksmd amsd samd samd sad sa',
+        title: 'Kulolchilik haqida',
         text: 'Kulolchilik – Oʼzbekiston xalq amaliy sanʼatinig eng qadimiy, gʼoyat qiziqarli turlaridan biri. Mamlakatimiz hududida kulolchiliknig koʼplab asosiy maktab va markazlari mavjud. Rishton, Buxoro, Gʼurumsaroy, Toshkent, Xorazm, Samarqand va Qashqadaryo kulolchilik maktablarini sanash mumkin. Ushbu kulolchilik maktablari bir biridan yaratilgan mahsulotlarni tayyorlanish uslubi, naqsh-gullari, rangi va pardozi bilan biri-biridan farqlanadi.',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRprJt2Ji2qjR94vBrnD0HmbqBoNzhiSayeKg&s',
-        rating: 3,
+        img: 'https://storage.kun.uz/source/7/gtq6ryn3kUOFrPVtor_aZPxvW0X0iIMj.jpg', rating: 5,
     },
     {
-        title: 'lorem kdksmd amsd samd samd sad sa',
+        title: 'Kulolchilik haqida',
         text: 'Kulolchilik – Oʼzbekiston xalq amaliy sanʼatinig eng qadimiy, gʼoyat qiziqarli turlaridan biri. Mamlakatimiz hududida kulolchiliknig koʼplab asosiy maktab va markazlari mavjud. Rishton, Buxoro, Gʼurumsaroy, Toshkent, Xorazm, Samarqand va Qashqadaryo kulolchilik maktablarini sanash mumkin. Ushbu kulolchilik maktablari bir biridan yaratilgan mahsulotlarni tayyorlanish uslubi, naqsh-gullari, rangi va pardozi bilan biri-biridan farqlanadi.',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRprJt2Ji2qjR94vBrnD0HmbqBoNzhiSayeKg&s',
-        rating: 3,
+        img: 'https://storage.kun.uz/source/7/gtq6ryn3kUOFrPVtor_aZPxvW0X0iIMj.jpg', rating: 5,
     },
 ]);
 </script>
